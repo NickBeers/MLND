@@ -13261,7 +13261,7 @@ Make sure to keep track of the various features and conditions you tried before 
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer</strong>: It seems like image recognition would be a good example of supervised learning, you would feed pictures of what you wish to classify into the system, and each picture could be labeled with what is actually in the picture.  The algorithm could easily be tested for accuracy against the data, and you could tweak it to get better results.</p>
-<p>Two features of the data we used in this scenario that may be helpful for making predictions are that it is pre-classified and we can test our algorithm against the already knows results.  The data is also very complete, there wern't too many missing data and it is formatted very nicely for data analysis.</p>
+<p>Two features of this data are, either RGA, or HSV.  These are different ways to represent the pixels of the image. HSV is commonly used for computer vision, because it lets you easily detect certain colors in the image.  You set what HSV values represent which color you are trying to detect, and after the image processing everthing that color will show as white, and everything else will be black.  You could also use individual pixel values to detect motion or edge detection.</p>
 
 </div>
 </div>
